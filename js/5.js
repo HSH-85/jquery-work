@@ -24,6 +24,6 @@ $(document).ready(function(){
     $(".a").fadeToggle();
   })
   $("#btn_fadeTo").on("click", function(){
-    $(".a").fadeTo(3000, 0);
+    $(".a").fadeTo(3000, 0.5);
   })
   })
